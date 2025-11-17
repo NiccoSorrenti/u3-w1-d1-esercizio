@@ -24,7 +24,7 @@ function App() {
           count is {count}
         </button>
         <ButtonComponent click="cliccami" />
-        <ImageComponent immagine="prova" />
+        <ImageComponent imgUrl="https://placebear.com/200/300" alt="prova" />
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
