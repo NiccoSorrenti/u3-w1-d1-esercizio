@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import ButtonComponent from './components/ButtonComponent';
 import ImageComponent from './components/ImageComponent';
+import ButtonComponent2 from './components/ButtonComponent2';
+import ImageComponent2 from './components/ImageComponent2';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,7 +26,9 @@ function App() {
           count is {count}
         </button>
         <ButtonComponent click="cliccami" />
+        <ButtonComponent2 click="schiacciami" />
         <ImageComponent imgUrl="https://placebear.com/200/300" alt="prova" />
+        <ImageComponent2 imgUrl="https://placebear.com/200/300" alt="prova" />
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
